@@ -5,6 +5,8 @@ import UIKit
 
 /// Describes configuration of the `RichTextRenderer`.
 public protocol RendererConfiguration {
+    var backgroundColor: UIColor { get }
+    
     /// Provides fonts in different variations for the renderers.
     var styleProvider: StyleProviding { get }
 
